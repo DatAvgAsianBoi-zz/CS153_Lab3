@@ -47,3 +47,7 @@ will need to install a cross-compiler gcc suite capable of producing
 x86 ELF binaries. See http://pdos.csail.mit.edu/6.828/2016/tools.html.
 Then run "make TOOLPREFIX=i386-jos-elf-". Now install the QEMU PC
 simulator and run "make qemu".
+
+-------------------------------------------------------------------------
+Changes were made to the original xv6 repo to comply with the instruction for lab 3 for CS153 taken at UCR for spring 2020. 
+This changes the memory loadout of the default xv6 that changes the user memory layout to move stack to top of address space.
